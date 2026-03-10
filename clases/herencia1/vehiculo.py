@@ -7,7 +7,7 @@ class Vehiculo(object):
         self.potenciaCV = potenciaCV
         
     def __str__(self):
-        return self.matricula + "" + self.modelo + ""+ str(self.potenciaCV)
+        return self.matricula + " " + self.modelo + " " + str(self.potenciaCV)
     
     def encender(self):
         print("Encendiendo el vehículo")

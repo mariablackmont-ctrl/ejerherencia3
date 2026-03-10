@@ -1,4 +1,4 @@
-class persona(object):
+class Persona(object):
     
     def __init__(self, clave, nombre, edad):
         self.clave = clave
@@ -6,6 +6,6 @@ class persona(object):
         self.edad = edad
         
     def __str__(self):
-        return self.clave + "" + self.nombre + "" + str(self.edad)
+        return self.clave + " " + self.nombre + " " + str(self.edad)
     
     

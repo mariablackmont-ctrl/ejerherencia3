@@ -6,7 +6,7 @@ class Taxi(Vehiculo):
         self.numerolicencia = numerolicencia
         
     def __str__(self):
-        return super().__str__()+""+str(self.numerolicencia)
+        return super().__str__()+" "+str(self.numerolicencia)
     
     def subirPasajeros (self):
         print("Subiendo pasajeros")
